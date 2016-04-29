@@ -1,0 +1,47 @@
+
+.homebackground{
+    background-image: url(../images/3.jpg);
+    background-repeat: no-repeat;
+}
+
+.topMargin{
+    margin-top: 120px;
+}
+
+.topMargin50px{
+    margin-top: 50px;
+}
+
+.no-margin{
+margin:0px;
+}
+
+.no-padding{
+padding:0px;
+}
+
+.site-footer{
+background-color:#222;
+color:#fff;
+margin-top:15px;
+}
+
+.bottom-footer{
+margin-top:5px;
+padding-top:5px;
+border-top:1px solid gray;
+}
+
+.footer-links{
+text-align:right;
+list-style:none;
+}
+
+.footer-links li{
+display:inline;
+}
+
+.footer-links li:not(:first-child):before{
+content:'|';
+padding:0px 5px;
+}
